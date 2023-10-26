@@ -9,14 +9,20 @@ import './App.css';
 //para links internos usamos li e link
 const Home = () => {
     return (
-        <div>
-            <nav>
+        <div className="principal-container">
+            <nav className="card-container">
                 <ul>
                     <li>
                         <Link to="/Atv01">Atividade 1 - Relógio e Letreiro</Link>
                     </li>
                     <li>
                         <Link to="/Atv02">Atividade 2 - </Link>
+                    </li>
+                    <li>
+                        <Link to="">Atividade 3 - </Link>
+                    </li>
+                    <li>
+                        <Link to="">Atividade 4 - </Link>
                     </li>
                 </ul>
             </nav>

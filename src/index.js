@@ -1,9 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import reportWebVitals from './reportWebVitals';
 import MinhasRotas from "./minhasRotas";
+import './index.css';
 import './App.css';
+import './home.css';
+import './tarefas/semana1/relogio.css';
+import './tarefas/semana1/letreiro.css';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
