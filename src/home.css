@@ -1,22 +1,23 @@
-.card-container {
+.card-container-home {
     border: 1px solid #000000; 
     padding: 10px; 
     margin: 10px; 
-    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.63); 
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.938); 
     background-color: #000000; 
     border-radius: 5px; 
     text-align: center;
     width: 50%;
     margin: 10em auto;
+    border: 3px solid #ffffff;
   }
   
-  .card-container li {
+  .card-container-home li {
     list-style: none; 
     margin: 5px 0;
     line-height: 2;
   }
   
-  .card-container li a {
+  .card-container-home li a {
     text-decoration: none; 
     color: #fcef81;
     text-shadow: 0 1px 1px #f1ee1e;

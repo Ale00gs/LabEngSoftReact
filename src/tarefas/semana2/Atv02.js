@@ -1,12 +1,15 @@
-import {Link}  from "react-router-dom";
+import { Link } from "react-router-dom";
+import ComponentCounter from "./componentCounter";
+
 export default function Atv02(){
     
-    return(
-        <>
-        <h1>Atividade 02</h1>
-        <div className="button">
-          <Link className="link" to="/"> Voltar </Link>
-        </div>
-        </>
-    );
+  return(
+    <>
+      <ComponentCounter />
+
+      <div className="button">
+      <Link className="link" to="/"> Voltar </Link>
+      </div>
+    </>
+  );
 }

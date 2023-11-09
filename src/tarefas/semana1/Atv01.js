@@ -5,8 +5,8 @@ import Relogio from "./Relogio";
 export default function Atv01() {
   return (
     <div className="App">
-      <>
-        <h1>React</h1>
+      <> 
+        <h1 className="h1-exercise1">React</h1>
         <div className="all-components">
           <div className="relogio-component card">
             <Relogio /> {/* Renderiza o componente Relogio */}

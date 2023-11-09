@@ -1,0 +1,92 @@
+:root{
+    --black: #000000;
+    --white: #ffffff;
+    --principal_color: rgb(198,197,255);
+    --color2: #BAEEFF;
+    --color3:#fbca61;
+    --color4:#619efb;
+}
+
+.card-exe2{
+    align-items: center;
+}
+
+.title-exe2 {
+    font-size: 50px;
+    color: var(--color3) ;
+    text-shadow: 3px 2px 1px #000000;
+    margin-left: 35%;
+}
+
+.principal-box-exe2{
+    align-items: center;
+    text-align: center;
+}
+
+.first-card-exe2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.contador{
+    width: 20%;
+    align-items:center;
+    text-align: center;
+    border: 1px solid #000; 
+    border-radius: 10px;
+    margin-left: 100vh;
+}
+
+.button-reset-exe2{
+    cursor: pointer;
+    width: 40px;
+    margin-left: -200px;
+}
+
+.principal-card-exe2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.container-homens,.container-mulheres{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    flex-direction: column; 
+    text-align: center; 
+}
+
+.img-man-exe2, .img-woman-exe2 {
+    width: 25%;
+}
+
+.add-button-man-exe2, .add-button-woman-exe2{
+    width: 10vh;
+    margin: 0 auto;
+   
+}
+
+.remove-button-man-exe2, .remove-button-woman-exe2{
+    width: 9vh;
+
+}
+
+.card-border-man{
+    width: 40%;
+    padding: 3px;
+    border: 1px solid #000; 
+    border-radius: 10px;
+}
+
+.card-border-woman{
+    width: 40%;
+    padding: 3px;
+    border: 1px solid #000; 
+    border-radius: 10px;
+}
+
+
+

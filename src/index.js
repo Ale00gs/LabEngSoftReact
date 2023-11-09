@@ -3,10 +3,6 @@ import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
 import MinhasRotas from "./minhasRotas";
 import './index.css';
-import './App.css';
-import './home.css';
-import './tarefas/semana1/relogio.css';
-import './tarefas/semana1/letreiro.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

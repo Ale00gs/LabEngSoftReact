@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './letreiro.css';
 
 class Letreiro extends Component {
   constructor(props) {
