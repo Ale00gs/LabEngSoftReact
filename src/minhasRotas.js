@@ -3,7 +3,7 @@
 
 // BrowserRouter = componente react que cria rota 
 // route = marcação do caminho e do elemento
-// routes = tag pai que abraça todas as tags "rout" 
+// routes = tag pai que abraça todas as tags "route" 
 
 //PARA ENTENDER
 //Home.js é o menu, componente que constitui a pag html 
@@ -12,8 +12,10 @@
 
 import { BrowserRouter, Route , Routes } from "react-router-dom";
 import Home from "./Home";
+import './index.css';
 import Atv01 from "./tarefas/semana1/Atv01";
 import Atv02 from "./tarefas/semana2/Atv02";
+import Atv03 from "./tarefas/semana3/atv03";
 
 //Criando o componente minhas rotas
 export default function MinhasRotas(){
@@ -24,6 +26,7 @@ export default function MinhasRotas(){
                 <Route path="/" element={<Home />} />
                 <Route path="/atv01" element={<Atv01 />} />
                 <Route path="/atv02" element={<Atv02 />} />
+                <Route path="/atv03" element={<Atv03 />} />
             </Routes>
         </BrowserRouter>
     );

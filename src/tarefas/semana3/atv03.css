@@ -1,0 +1,44 @@
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --color1: #848282;
+  --color2: #DDAFEF;
+
+  
+}
+
+.bgExe3Button {
+  background-color: var(--color2);
+  height: 100px;
+}
+
+.bg-exe3 {
+  background-color: var(--white);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+
+.card-exe3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  background-color: var(--color2);
+  align-items: center;
+  height: 100%;
+  width: 60%;
+  border: 3px solid #000000;
+  border-radius: 20px;
+  margin: 50px;
+  padding: 10px;
+}
+
+.title-exe3 {
+  text-shadow: 2px 2px 1px var(--white);
+  font-family: 'Lucida Sans', Arial, sans-serif ;
+}
+ 
