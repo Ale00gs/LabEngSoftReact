@@ -23,7 +23,10 @@ const Home = () => {
               <Link to="/Atv03">Atividade 3 - Componentes Diversos</Link>
             </li>
             <li>
-              <Link to="">Atividade 4 - </Link>
+              <Link to="/Atv04">Atividade 4 - Calculadora</Link>
+            </li>
+            <li>
+              <Link to="/Atv05">Atividade 4 - Jogo da Memória</Link>
             </li>
           </ul>
         </nav>

@@ -1,10 +1,10 @@
 :root{
     --black: #000000;
     --white: #ffffff;
-    --color3:#fbca61;
+    --color-btt-exe2:#fbca61;
 }
 
 .bg-exe2-button {
-    background-color: var(--color3);
+    background-color: var(--color-btt-exe2);
     height: 100px;
 }

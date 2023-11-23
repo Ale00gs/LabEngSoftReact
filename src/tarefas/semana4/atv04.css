@@ -1,7 +1,11 @@
 :root{
-    --black: #000000;
-    --white: #ffffff;
-    --principal_color: rgb(198,197,255);
-    --color3:#619efb;
-    
+    --color-exe4: rgb(198, 196, 237);
+}
+
+
+.bg-exe4-button {
+    background-color: var(--color-exe4);
+    height: 100px;
+    padding: 1em;
+    padding-top: 1em;
 }

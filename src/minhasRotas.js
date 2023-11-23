@@ -16,6 +16,8 @@ import './index.css';
 import Atv01 from "./tarefas/semana1/Atv01";
 import Atv02 from "./tarefas/semana2/Atv02";
 import Atv03 from "./tarefas/semana3/atv03";
+import Atv04 from "./tarefas/semana4/atv04";
+import Atv05 from "./tarefas/semana5/atv05";
 
 //Criando o componente minhas rotas
 export default function MinhasRotas(){
@@ -27,6 +29,8 @@ export default function MinhasRotas(){
                 <Route path="/atv01" element={<Atv01 />} />
                 <Route path="/atv02" element={<Atv02 />} />
                 <Route path="/atv03" element={<Atv03 />} />
+                <Route path="/atv04" element={<Atv04 />} />
+                <Route path="/atv05" element={<Atv05 />} />
             </Routes>
         </BrowserRouter>
     );
