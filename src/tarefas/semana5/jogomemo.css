@@ -1,0 +1,70 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+  --principal_color: rgb(255, 197, 197);
+  --color3: #fb6161;
+  --bg-exe5: #322f2f;
+  --card-exe5: rgb(245, 240, 188);
+}
+
+.bg-exe5 {
+  background-color: var(--bg-exe5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.imagem-reiniciar {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.carta-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* Cinco colunas por fileira */
+  gap: 5px; /* Espaçamento entre as cartas */
+  justify-content: center;
+  align-items: center;
+}
+
+.carta {
+  width: 120px;
+  height: 120px;
+  margin: 10px;
+  background-color: var(--white);
+  border-radius: 8px;
+  border: 3px solid var(--black);
+  box-shadow: 0 4px 6px rgba(122, 122, 122, 0.61);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.carta:hover {
+    background-color: var(--card-exe5);
+}
+
+.imagem-carta {
+  width: 80%;
+  height: 80%;
+  border-radius: 8px;
+}
+
+.imagem-interrogacao {
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.texto-carta {
+  font-size: 24px;
+  color: #4a5568;
+}

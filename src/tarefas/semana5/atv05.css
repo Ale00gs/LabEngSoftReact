@@ -1,6 +1,8 @@
-:root{
-    --black: #000000;
-    --white: #ffffff;
-    --principal_color: rgb(255, 197, 197);
-    --color3:#fb6161;
+:root {
+    --bg-exe5:#322f2f;
+  }
+
+.bg-exe5-button {
+    background-color: var(--bg-exe5);
+    height: 100px;
 }
