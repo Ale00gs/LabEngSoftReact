@@ -18,7 +18,7 @@
   
 </div>
 <p align="center">(PARTE 2)</p>
-<p align="center">Este é um projeto que estou desenvolvendo durante as aulas de Laboratório de Engenharia de Software. </p>
+<p align="center">Este é um projeto que eu desenvolvi durante as aulas de Laboratório de Engenharia de Software. </p>
 <p align="center">Sinta-se à vontade para me acompanhar nos próximos capítulos :smile::rocket:</p>
 <p align="center"> :x: Por favor, respeite os direitos autorais deste trabalho e evite qualquer forma de cópia não autorizada.:x:</p>
 
